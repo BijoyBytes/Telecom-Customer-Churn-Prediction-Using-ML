@@ -15,7 +15,7 @@ The project demonstrates a complete end-to-end machine learning workflow, from d
 
 ![Library_project](https://github.com/BijoyBytes/Telecom-Customer-Churn-Prediction-Using-ML/blob/main/churn.jpg)
 
-##  Business Problem
+###  Business Problem
 Acquiring new customers is significantly more expensive than retaining existing ones.
 By accurately predicting churn, companies can:
 
@@ -23,65 +23,54 @@ By accurately predicting churn, companies can:
 * Improve customer retention strategies
 * Optimize marketing and customer support efforts
 
-##  Solution Approach
+###  Solution Approach
 
 1. **Data Understanding**
-
    * Analyzed customer demographics, services, and account information
 2. **Data Preprocessing**
-
    * Handled missing values
    * Encoded categorical variables
    * Scaled numerical features
 3. **Exploratory Data Analysis (EDA)**
-
    * Identified churn patterns and key influencing factors
    * Visualized correlations and distributions
 4. **Model Building**
-
    * Trained multiple ML models
    * Compared performance using evaluation metrics
 5. **Model Evaluation**
-
    * Accuracy
    * Precision, Recall, F1-score
    * Confusion Matrix
 6. **Insights & Recommendations**
-
    * Identified high-risk churn segments
    * Suggested business actions
 
-##  Key Insights
-
-* Customers with **short tenure** have a higher churn probability
-* **Month-to-month contracts** are more likely to churn
-* Higher **monthly charges** increase churn risk
-* Long-term contracts significantly reduce churn
-
-
-## 📈 Model Performance
+###  Model Performance
 
 | Model               | Accuracy                   |
 | ------------------- | -------------------------- |
 | Decision Tree       | 78%                        |
 | Random Forest       | **Best Performance – 84%** |
 
-## 
 * Language: Python
 * Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 * ML Techniques: Random Forest, Decision Tree, Feature Engineering, Model Evaluation
+
+###  Key Insights
+
+* **New and short-tenure customers are the most vulnerable to churn**
+  Customers with low tenure show significantly higher churn rates, indicating that the first few months are critical for customer retention.
+
+  ➤ **Business Action**: Introduce onboarding programs, welcome offers, and early engagement campaigns for new customers.
+  
+* **Contract type is one of the strongest predictors of churn**
+  Customers on month-to-month contracts churn far more frequently compared to those on 1-year or 2-year contracts.
+
+  ➤ **Business Action**: Encourage long-term contract adoption through discounts, loyalty benefits, or bundled plans.
+
+
 ## Conclusions
 This project demonstrates how machine learning can be effectively applied to a real-world telecom churn problem, transforming historical customer data into actionable business insights.
 
 Through comprehensive data preprocessing, exploratory analysis, and model evaluation, the project successfully identifies key churn drivers such as contract type, tenure, and billing behaviour. The final model is capable of flagging high-risk customers in advance, enabling telecom companies to shift from reactive churn handling to proactive customer retention.
-## 👤 About Me
-
-**Bijoy Paul**
-Aspiring Data Analyst / Data Scientist
-
-* Skilled in Python, SQL, Excel, Power BI, and Machine Learning
-* Interested in solving real-world business problems using data
-
-📫 **LinkedIn:** *Add your LinkedIn*
-📧 **Email:** *Add your email*
 
