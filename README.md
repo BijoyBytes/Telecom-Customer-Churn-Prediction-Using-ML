@@ -66,11 +66,14 @@ By accurately predicting churn, companies can:
 | Decision Tree       | 78%                        |
 | Random Forest       | **Best Performance – 84%** |
 
-## Tech Stack
+## 
 * Language: Python
 * Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 * ML Techniques: Random Forest, Decision Tree, Feature Engineering, Model Evaluation
+## Conclusions
+This project demonstrates how machine learning can be effectively applied to a real-world telecom churn problem, transforming historical customer data into actionable business insights.
 
+Through comprehensive data preprocessing, exploratory analysis, and model evaluation, the project successfully identifies key churn drivers such as contract type, tenure, and billing behaviour. The final model is capable of flagging high-risk customers in advance, enabling telecom companies to shift from reactive churn handling to proactive customer retention.
 ## 👤 About Me
 
 **Bijoy Paul**
